@@ -14,6 +14,10 @@
 };
 
 / {
+    chosen {
+        zmk,matrix_transform = &full_space_transform;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
